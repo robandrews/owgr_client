@@ -1,0 +1,964 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <link rel="stylesheet" href="/styles/css/font-awesome.min.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="content-language" content="en">
+    
+   
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700italic"><link type="text/css" rel="stylesheet" href="/styles/css/normalize.min.css?ov=18"><link type="text/css" rel="stylesheet" href="/styles/css/mobile.css?ov=18"><link type="text/css" rel="stylesheet" href="/styles/css/tablet.css?ov=18"><link type="text/css" rel="stylesheet" href="/styles/css/desktop.css?ov=18"><link rel="stylesheet" type="text/css" href="/styles/css/lightbox.css?ov=18"><script src="/styles/js/vendor/modernizr-2.6.2.min.js?ov=18"></script>
+     <!--[if lt IE 9]>
+    <link rel="stylesheet" href="/styles/css/ie.css?ov=18" type="text/css" />
+    <![endif]-->
+    <link rel="shortcut icon" href="/styles/img/icons/favicon.ico"  type="image/x-icon"/>
+    
+  </head>
+  <body>
+  <!--[if lt IE 9]>
+<img src="/styles/img/deskbg.jpg" class="bgimg" />
+<![endif]-->
+  <form method="post" action="/en/Events/EventResult.aspx?eventid=7191" id="mainform">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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ci5jb20vCWV1cm9fdG91cgZfYmxhbmtkAgIPZBYCZg8VAxRodHRwOi8vd3d3LmpndG8ub3JnLwVqYXBhbgZfYmxhbmtkAgMPZBYCZg8VAxdodHRwOi8vd3d3LnBnYXRvdXIuY29tLwhwZ2FfdG91cgZfYmxhbmtkAgQPZBYCZg8VAyZodHRwczovL3d3dy5wZ2Eub3JnLmF1L3RvdXJucy9wZ2EtdG91cgthdXN0cmFsYXNpYQZfYmxhbmtkAgUPZBYCZg8VAxxodHRwOi8vd3d3LnN1bnNoaW5ldG91ci5jb20vB3NzX3RvdXIGX2JsYW5rZAIGD2QWAmYPFQMYaHR0cDovL2FscHN0b3VyZ29sZi5jb20vCWFscHNfdG91cgBkAgcPZBYCZg8VAyBodHRwOi8vYXNpYW5kZXZlbG9wbWVudHRvdXIuY29tLw1hc2lhX2Rldl90b3VyBl9ibGFua2QCCA9kFgJmDxUDGWh0dHA6Ly9iaWdlYXN5dG91ci5jby56YS8Jc3NiZV90b3VyBl9ibGFua2QCCQ9kFgJmDxUDKmh0dHA6Ly93d3cuZXVyb3BlYW50b3VyLmNvbS9jaGFsbGVuZ2V0b3VyLw5ldXJvX2NoYWxsZW5nZQZfYmxhbmtkAgoPZBYCZg8VAydodHRwOi8vd3d3LmNnYXRvdXIuY29tLmNuL2VuL2luZGV4Lmh0bWwIY2huX3RvdXIAZAILD2QWAmYPFQMbaHR0cDovL3d3dy5ldXJvcHJvdG91ci5jb20vCGVwdF90b3VyBl9ibGFua2QCDA9kFgJmDxUDLGh0dHA6Ly93d3cua3BnYS5jby5rci9zY2hlZHVsZS9zY2hlZHVsZS5rcGdhC2tvcmVhbl90b3VyAGQCDQ9kFgJmDxUDHmh0dHA6Ly93d3cyLnBnYXRvdXJjYW5hZGEuY29tLwdwZ2FfY2FuBl9ibGFua2QCDg9kFgJmDxUDGWh0dHBzOi8vbWVuYWdvbGZ0b3VyLmNvbS8IbWd0X3RvdXIGX2JsYW5rZAIPD2QWAmYPFQMlaHR0cDovL2VjY290b3VyLm9yZy9ub3JkaWNnb2xmbGVhZ3VlLwhuZ2xfdG91cgZfYmxhbmtkAhAPZBYCZg8VAxRodHRwOi8vb25lYXNpYS5hc2lhLwhvbmVfYXNpYQZfYmxhbmtkAhEPZBYCZg8VAyVodHRwOi8vd3d3LnBnYXRvdXJzZXJpZXNjaGluYS5jb20vZW4vCXBnYV9jaGluYQZfYmxhbmtkAhIPZBYCZg8VAxlodHRwOi8vd3d3LnBnYXRvdXJsYS5jb20vB3BnYV9sYXQGX2JsYW5rZAITD2QWAmYPFQMsaHR0cDovL3d3dy5wZ2EuZGUvc2NoZWR1bGUtbGF0ZXN0Lmh0bWw/eWVhcj0IcGd0X3RvdXIGX2JsYW5rZAIUD2QWAmYPFQMiaHR0cDovL3d3dy5wZ2F0b3VyLmNvbS93ZWJjb20uaHRtbAh3ZWJfdG91cgZfYmxhbmtkAgEPFgIfAAIHFg5mD2QWAmYPFQMWaHR0cDovL3d3dy5tYXN0ZXJzLmNvbQdhdWd1c3RhBl9ibGFua2QCAQ9kFgJmDxUDFGh0dHA6Ly93d3cudXNnYS5vcmcvBHVzZ2EGX2JsYW5rZAICD2QWAmYPFQMVaHR0cDovL3d3dy5yYW5kYS5vcmcvAnJhBl9ibGFua2QCAw9kFgJmDxUDEmh0dHA6Ly93d3cucGdhLmNvbQNwZ2EAZAIED2QWAmYPFQMXaHR0cDovL3d3dy5wZ2F0b3VyLmNvbS8IcGdhX3RvdXIGX2JsYW5rZAIFD2QWAmYPFQMcaHR0cDovL3d3dy5ldXJvcGVhbnRvdXIuY29tLwlldXJvX3RvdXIGX2JsYW5rZAIGD2QWAmYPFQNCaHR0cDovL3d3dy53b3JsZGdvbGZjaGFtcGlvbnNoaXBzLmNvbS9pbnRlcm5hdGlvbmFsZmVkZXJhdGlvbi5odG1sA2lnZgZfYmxhbmtkAgIPFgIfAAIDFgZmD2QWAmYPFQIUL2dsb2JhbC9mb290ZXIvdGVybXMFVEVSTVNkAgEPZBYCZg8VAhYvZ2xvYmFsL2Zvb3Rlci9wcml2YWN5B1BSSVZBQ1lkAgIPZBYCZg8VAjMvYWJvdXQ/dGFiSUQ9e0Y5NTVFMDBGLURGNjAtNEEwQy1CQzZDLUFCOTdCOUMxM0VGMX0KQ09OVEFDVCBVU2RkmJWQJLgvmVuawdp4Cj6PLHHvZdw=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1A81A728" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKZh7LJAwKdjpH3BQLau9OJBDAaYKLVrEtirtW0w+QLm7qjbxGq" />
+</div> 
+    <div id="site_container">
+        
+        
+<header id="main_header">
+<a href="/" id="site_logo"><b>OFFICIAL</b>WORLD GOLF RANKING</a>
+     <nav id="site_nav" class="hover">
+          <span class="menu"><span class="lines"></span></span>
+          <ul>
+          <li><a href="/news">NEWS</a></li><li><a href="/ranking">CURRENT RANKING</a></li><li><a href="/events">EVENTS</a></li><li><a href="/about">HISTORY &amp; PAST RANKINGS</a></li>
+          </ul>
+      </nav>
+</header>
+            <!--End of main_header-->
+
+            
+<section id="home_banner" class="page_banner">
+        <div class="image" style="background-image:url('/sitecore/shell/~/media/44BDA177654D46F7B78D23B68F1AB9F3.ashx?w=985&h=287&rgn=544,1105,5101,2431&la=en')"></div>
+        <div class="banner_grad"></div>
+        <span class="week">WEEK 50</span>
+        <span class="name">395 Events</span>
+        <span class="rank">Across 20 Eligible Tours</span>
+        <span class="since">Completed so far in 2018 </span> 
+ </section>
+
+     
+            
+  <section id="ranking_roller" class=mhb>
+    <a class="nav left" href="#"></a>
+    <a class="nav right" href="#"></a>
+    <div class="players"  data-interval="7000" data-speed="500">    
+     <span class="fadeout"></span>   
+        <ul style="margin-left: 0px;">
+        <li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=16243" class="name">1 Brooks Koepka</a></li><li><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG" title="ENG" /><a href="/Ranking/PlayerProfile.aspx?playerID=6093" class="name">2 Justin Rose</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=12422" class="name">3 Dustin Johnson</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=14139" class="name">4 Justin Thomas</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=19841" class="name">5 Bryson DeChambeau</a></li><li><img class="flag" src="/styles/img/flags/ESP.png" alt="ESP" title="ESP" /><a href="/Ranking/PlayerProfile.aspx?playerID=19195" class="name">6 Jon Rahm</a></li><li><img class="flag" src="/styles/img/flags/ITA.png" alt="ITA" title="ITA" /><a href="/Ranking/PlayerProfile.aspx?playerID=7655" class="name">7 Francesco Molinari</a></li><li><img class="flag" src="/styles/img/flags/NIR.png" alt="NIR" title="NIR" /><a href="/Ranking/PlayerProfile.aspx?playerID=10091" class="name">8 Rory McIlroy</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=12965" class="name">9 Rickie Fowler</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=11676" class="name">10 Tony Finau</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=19895" class="name">11 Xander Schauffele</a></li><li><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG" title="ENG" /><a href="/Ranking/PlayerProfile.aspx?playerID=12294" class="name">12 Tommy Fleetwood</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=5321" class="name">13 Tiger Woods</a></li><li><img class="flag" src="/styles/img/flags/AUS.png" alt="AUS" title="AUS" /><a href="/Ranking/PlayerProfile.aspx?playerID=9771" class="name">14 Jason Day</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=14838" class="name">15 Patrick Reed</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=14636" class="name">16 Jordan Spieth</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=7334" class="name">17 Bubba Watson</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=15466" class="name">18 Patrick Cantlay</a></li><li><img class="flag" src="/styles/img/flags/SWE.png" alt="SWE" title="SWE" /><a href="/Ranking/PlayerProfile.aspx?playerID=10419" class="name">19 Alex Noren</a></li><li><img class="flag" src="/styles/img/flags/AUS.png" alt="AUS" title="AUS" /><a href="/Ranking/PlayerProfile.aspx?playerID=7649" class="name">20 Marc Leishman</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=11049" class="name">21 Webb Simpson</a></li><li><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG" title="ENG" /><a href="/Ranking/PlayerProfile.aspx?playerID=7108" class="name">22 Paul Casey</a></li><li><img class="flag" src="/styles/img/flags/ESP.png" alt="ESP" title="ESP" /><a href="/Ranking/PlayerProfile.aspx?playerID=5689" class="name">23 Sergio Garcia</a></li><li><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG" title="ENG" /><a href="/Ranking/PlayerProfile.aspx?playerID=14796" class="name">24 Tyrrell Hatton</a></li><li><img class="flag" src="/styles/img/flags/SWE.png" alt="SWE" title="SWE" /><a href="/Ranking/PlayerProfile.aspx?playerID=5994" class="name">25 Henrik Stenson</a></li><li><img class="flag" src="/styles/img/flags/RSA.png" alt="RSA" title="RSA" /><a href="/Ranking/PlayerProfile.aspx?playerID=7672" class="name">26 Louis Oosthuizen</a></li><li><img class="flag" src="/styles/img/flags/JPN.png" alt="JPN" title="JPN" /><a href="/Ranking/PlayerProfile.aspx?playerID=13562" class="name">27 Hideki Matsuyama</a></li><li><img class="flag" src="/styles/img/flags/AUS.png" alt="AUS" title="AUS" /><a href="/Ranking/PlayerProfile.aspx?playerID=15856" class="name">28 Cameron Smith</a></li><li><img class="flag" src="/styles/img/flags/ESP.png" alt="ESP" title="ESP" /><a href="/Ranking/PlayerProfile.aspx?playerID=7457" class="name">29 Rafa Cabrera Bello</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=13872" class="name">30 Keegan Bradley</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=12577" class="name">31 Gary Woodland</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=1547" class="name">32 Phil Mickelson</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=12069" class="name">33 Kyle Stanley</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=6169" class="name">34 Matt Kuchar</a></li><li><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG" title="ENG" /><a href="/Ranking/PlayerProfile.aspx?playerID=15113" class="name">35 Eddie Pepperell</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=11276" class="name">36 Billy Horschel</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=11328" class="name">37 Kevin Kisner</a></li><li><img class="flag" src="/styles/img/flags/THA.png" alt="THA" title="THA" /><a href="/Ranking/PlayerProfile.aspx?playerID=12321" class="name">38 Kiradech Aphibarnrat</a></li><li><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG" title="ENG" /><a href="/Ranking/PlayerProfile.aspx?playerID=1435" class="name">39 Ian Poulter</a></li><li><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG" title="ENG" /><a href="/Ranking/PlayerProfile.aspx?playerID=17646" class="name">40 Matthew Fitzpatrick</a></li><li><img class="flag" src="/styles/img/flags/AUS.png" alt="AUS" title="AUS" /><a href="/Ranking/PlayerProfile.aspx?playerID=6430" class="name">41 Adam Scott</a></li><li><img class="flag" src="/styles/img/flags/CHN.png" alt="CHN" title="CHN" /><a href="/Ranking/PlayerProfile.aspx?playerID=15310" class="name">42 Haotong Li</a></li><li><img class="flag" src="/styles/img/flags/DEN.png" alt="DEN" title="DEN" /><a href="/Ranking/PlayerProfile.aspx?playerID=13412" class="name">43 Thorbjorn Olesen</a></li><li><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG" title="ENG" /><a href="/Ranking/PlayerProfile.aspx?playerID=20706" class="name">44 Matt Wallace</a></li><li><img class="flag" src="/styles/img/flags/DEN.png" alt="DEN" title="DEN" /><a href="/Ranking/PlayerProfile.aspx?playerID=11619" class="name">45 Lucas Bjerregaard</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=7452" class="name">46 Kevin Na</a></li><li><img class="flag" src="/styles/img/flags/JPN.png" alt="JPN" title="JPN" /><a href="/Ranking/PlayerProfile.aspx?playerID=13531" class="name">47 Satoshi Kodaira</a></li><li><img class="flag" src="/styles/img/flags/ARG.png" alt="ARG" title="ARG" /><a href="/Ranking/PlayerProfile.aspx?playerID=12808" class="name">48 Emiliano Grillo</a></li><li><img class="flag" src="/styles/img/flags/RSA.png" alt="RSA" title="RSA" /><a href="/Ranking/PlayerProfile.aspx?playerID=11952" class="name">49 Branden Grace</a></li><li><img class="flag" src="/styles/img/flags/USA.png" alt="USA" title="USA" /><a href="/Ranking/PlayerProfile.aspx?playerID=8820" class="name">50 Brandt Snedeker</a></li>
+        </ul>
+    </div>
+
+</section><!--End of ranking_roller-->
+            <!--End of ranking_roller-->
+            
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js?ov=18"></script>
+               
+            <!-- Maint content of the page  -->
+            
+ <div id="main_content">
+ 
+<section id="player_search_m" class="player_search">
+    <div class="search_field">
+        <input id="searchTextPlayerMobile" class="input hasPlaceholder" type="text" name="search_query" placeholder="Player Profile Search">
+        <input type="submit" name="phmaincontent_0$ButtonMobile" value="" onclick="setDatesPlayerSearchMobile(); return false;" id="phmaincontent_0_ButtonMobile" class="search_button" name="filter" /> 
+    </div>
+    <ul class="live_results">
+    </ul>
+</section>
+
+ 
+<section id="event_result_table" class="site_block">
+    
+            <div class="event_slider">
+                <ul>
+        
+            <li>
+                <a href="?eventid=7191">
+                    <img class="event_logo" src="~/media/Images/OWGR/ToursAndFounders/PGA.ashx?w=0&h=52&la=en" />
+                </a>
+            </li>
+        
+            </ul>
+            </div>
+        
+
+
+    
+
+ <h2>TOUR Championship</h2>
+    <span class="sub_header"><time datetime=''>23rd September 2018</time><span class="strength"> - Strength of Field  510</span></span>
+
+    
+
+
+
+    <!-- <nav class="about_nav">
+    <ul>
+    <li class="howranwo">
+        <a class="active" href="?tabID={A01A4052-F0DF-4DDE-9BE2-940A54F2CA50}">HOW RANKING WORKS</a>
+        </li>
+        <li class="howranwo"><a href="?tabID={A01A4052-F0DF-4DDE-9BE2-940A54F2CA50}">HOW RANKING WORKS</a></li>
+    </ul>
+    </nav> -->
+
+ 
+
+    <div id="phmaincontent_0_ctl00_PanelCurrentEvent" class="table_container">
+	
+        <table>
+            <thead>
+                <tr>
+                    
+                </tr>
+                <tr>
+                    <th class="ws header">Pos
+                    </th>
+                    <th class="ctry header">Ctry</th>
+                    <th class="name header">Name</th>
+
+                    
+                    <th class='header'>R1</th>
+                    
+                    <th class='header'>R2</th>
+                    
+                    <th class='header'>R3 </th>
+                    
+                    <th class='header'>R4</th>
+                    
+
+                    <th class="header">Agg</th>
+                    <th class="ranking_points ws header">Ranking Points</th>
+
+                </tr>
+            </thead>
+
+            
+                    <tr>
+                        <td>1</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=5321">Tiger Woods</a></td>
+
+                        <td>65</td>
+                        <td>68</td>
+                        <td>65</td>
+                        <td>71</td>
+                        
+                        
+                        
+                        
+
+                        <td>269</td>
+                        <td>62</td>
+                    </tr>
+                
+                    <tr>
+                        <td>2</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=11276">Billy Horschel</a></td>
+
+                        <td>71</td>
+                        <td>65</td>
+                        <td>69</td>
+                        <td>66</td>
+                        
+                        
+                        
+                        
+
+                        <td>271</td>
+                        <td>37.2</td>
+                    </tr>
+                
+                    <tr>
+                        <td>3</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=12422">Dustin Johnson</a></td>
+
+                        <td>69</td>
+                        <td>70</td>
+                        <td>67</td>
+                        <td>67</td>
+                        
+                        
+                        
+                        
+
+                        <td>273</td>
+                        <td>24.8</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T4</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=11049">Webb Simpson</a></td>
+
+                        <td>69</td>
+                        <td>70</td>
+                        <td>68</td>
+                        <td>67</td>
+                        
+                        
+                        
+                        
+
+                        <td>274</td>
+                        <td>15.29333</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T4</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG"  title = "ENG"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=6093">Justin Rose</a></td>
+
+                        <td>66</td>
+                        <td>67</td>
+                        <td>68</td>
+                        <td>73</td>
+                        
+                        
+                        
+                        
+
+                        <td>274</td>
+                        <td>15.29333</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T4</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/JPN.png" alt="JPN"  title = "JPN"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=13562">Hideki Matsuyama</a></td>
+
+                        <td>72</td>
+                        <td>66</td>
+                        <td>71</td>
+                        <td>65</td>
+                        
+                        
+                        
+                        
+
+                        <td>274</td>
+                        <td>15.29333</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T7</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=12965">Rickie Fowler</a></td>
+
+                        <td>65</td>
+                        <td>72</td>
+                        <td>73</td>
+                        <td>65</td>
+                        
+                        
+                        
+                        
+
+                        <td>275</td>
+                        <td>9.765</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T7</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=14139">Justin Thomas</a></td>
+
+                        <td>67</td>
+                        <td>69</td>
+                        <td>70</td>
+                        <td>69</td>
+                        
+                        
+                        
+                        
+
+                        <td>275</td>
+                        <td>9.765</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T7</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=19895">Xander Schauffele</a></td>
+
+                        <td>68</td>
+                        <td>70</td>
+                        <td>68</td>
+                        <td>69</td>
+                        
+                        
+                        
+                        
+
+                        <td>275</td>
+                        <td>9.765</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T7</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/NIR.png" alt="NIR"  title = "NIR"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=10091">Rory McIlroy</a></td>
+
+                        <td>67</td>
+                        <td>68</td>
+                        <td>66</td>
+                        <td>74</td>
+                        
+                        
+                        
+                        
+
+                        <td>275</td>
+                        <td>9.765</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T11</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG"  title = "ENG"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=12294">Tommy Fleetwood</a></td>
+
+                        <td>69</td>
+                        <td>69</td>
+                        <td>70</td>
+                        <td>68</td>
+                        
+                        
+                        
+                        
+
+                        <td>276</td>
+                        <td>7.13</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T11</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=12577">Gary Woodland</a></td>
+
+                        <td>66</td>
+                        <td>72</td>
+                        <td>68</td>
+                        <td>70</td>
+                        
+                        
+                        
+                        
+
+                        <td>276</td>
+                        <td>7.13</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T11</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/ENG.png" alt="ENG"  title = "ENG"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=7108">Paul Casey</a></td>
+
+                        <td>68</td>
+                        <td>71</td>
+                        <td>66</td>
+                        <td>71</td>
+                        
+                        
+                        
+                        
+
+                        <td>276</td>
+                        <td>7.13</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T11</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/ESP.png" alt="ESP"  title = "ESP"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=19195">Jon Rahm</a></td>
+
+                        <td>68</td>
+                        <td>68</td>
+                        <td>68</td>
+                        <td>72</td>
+                        
+                        
+                        
+                        
+
+                        <td>276</td>
+                        <td>7.13</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T15</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=22051">Aaron Wise</a></td>
+
+                        <td>70</td>
+                        <td>69</td>
+                        <td>67</td>
+                        <td>71</td>
+                        
+                        
+                        
+                        
+
+                        <td>277</td>
+                        <td>5.58667</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T15</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=11676">Tony Finau</a></td>
+
+                        <td>67</td>
+                        <td>71</td>
+                        <td>67</td>
+                        <td>72</td>
+                        
+                        
+                        
+                        
+
+                        <td>277</td>
+                        <td>5.58667</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T15</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=12069">Kyle Stanley</a></td>
+
+                        <td>69</td>
+                        <td>68</td>
+                        <td>67</td>
+                        <td>73</td>
+                        
+                        
+                        
+                        
+
+                        <td>277</td>
+                        <td>5.58667</td>
+                    </tr>
+                
+                    <tr>
+                        <td>18</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/AUS.png" alt="AUS"  title = "AUS"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=9771">Jason Day</a></td>
+
+                        <td>68</td>
+                        <td>73</td>
+                        <td>69</td>
+                        <td>68</td>
+                        
+                        
+                        
+                        
+
+                        <td>278</td>
+                        <td>4.96</td>
+                    </tr>
+                
+                    <tr>
+                        <td>19</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=19841">Bryson DeChambeau</a></td>
+
+                        <td>71</td>
+                        <td>75</td>
+                        <td>66</td>
+                        <td>67</td>
+                        
+                        
+                        
+                        
+
+                        <td>279</td>
+                        <td>4.66</td>
+                    </tr>
+                
+                    <tr>
+                        <td>20</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/AUS.png" alt="AUS"  title = "AUS"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=15856">Cameron Smith</a></td>
+
+                        <td>70</td>
+                        <td>73</td>
+                        <td>69</td>
+                        <td>68</td>
+                        
+                        
+                        
+                        
+
+                        <td>280</td>
+                        <td>4.34</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T21</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=13470">Patton Kizzire</a></td>
+
+                        <td>71</td>
+                        <td>71</td>
+                        <td>68</td>
+                        <td>71</td>
+                        
+                        
+                        
+                        
+
+                        <td>281</td>
+                        <td>3.71</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T21</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=15466">Patrick Cantlay</a></td>
+
+                        <td>71</td>
+                        <td>65</td>
+                        <td>76</td>
+                        <td>69</td>
+                        
+                        
+                        
+                        
+
+                        <td>281</td>
+                        <td>3.71</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T21</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/AUS.png" alt="AUS"  title = "AUS"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=7649">Marc Leishman</a></td>
+
+                        <td>73</td>
+                        <td>69</td>
+                        <td>68</td>
+                        <td>71</td>
+                        
+                        
+                        
+                        
+
+                        <td>281</td>
+                        <td>3.71</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T21</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/ITA.png" alt="ITA"  title = "ITA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=7655">Francesco Molinari</a></td>
+
+                        <td>70</td>
+                        <td>75</td>
+                        <td>69</td>
+                        <td>67</td>
+                        
+                        
+                        
+                        
+
+                        <td>281</td>
+                        <td>3.71</td>
+                    </tr>
+                
+                    <tr>
+                        <td>25</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=7452">Kevin Na</a></td>
+
+                        <td>72</td>
+                        <td>68</td>
+                        <td>72</td>
+                        <td>71</td>
+                        
+                        
+                        
+                        
+
+                        <td>283</td>
+                        <td>3.34</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T26</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=13872">Keegan Bradley</a></td>
+
+                        <td>73</td>
+                        <td>73</td>
+                        <td>69</td>
+                        <td>69</td>
+                        
+                        
+                        
+                        
+
+                        <td>284</td>
+                        <td>3.16</td>
+                    </tr>
+                
+                    <tr>
+                        <td>T26</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=16243">Brooks Koepka</a></td>
+
+                        <td>69</td>
+                        <td>78</td>
+                        <td>67</td>
+                        <td>70</td>
+                        
+                        
+                        
+                        
+
+                        <td>284</td>
+                        <td>3.16</td>
+                    </tr>
+                
+                    <tr>
+                        <td>28</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=14838">Patrick Reed</a></td>
+
+                        <td>72</td>
+                        <td>74</td>
+                        <td>72</td>
+                        <td>71</td>
+                        
+                        
+                        
+                        
+
+                        <td>289</td>
+                        <td>2.98</td>
+                    </tr>
+                
+                    <tr>
+                        <td>29</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=7334">Bubba Watson</a></td>
+
+                        <td>70</td>
+                        <td>72</td>
+                        <td>73</td>
+                        <td>75</td>
+                        
+                        
+                        
+                        
+
+                        <td>290</td>
+                        <td>2.86</td>
+                    </tr>
+                
+                    <tr>
+                        <td>30</td>
+                        <td class="ctry"><img class="flag" src="/styles/img/flags/USA.png" alt="USA"  title = "USA"/> </td>
+                        <td class="name"><a href="/en/Ranking/PlayerProfile.aspx?playerID=1547">Phil Mickelson</a></td>
+
+                        <td>73</td>
+                        <td>72</td>
+                        <td>76</td>
+                        <td>72</td>
+                        
+                        
+                        
+                        
+
+                        <td>293</td>
+                        <td>2.8</td>
+                    </tr>
+                
+        </table>
+    
+</div>
+
+    
+
+
+    
+
+
+</section>
+
+ </div>
+ <!--End of main_content-->
+
+ <aside id="sidebar">
+ 
+    
+
+ <section id="player_search" class="player_search">   
+ <div class="search_field">
+        <input  id="searchTextPlayer" class="input hasPlaceholder" type="text" name="search_query" placeholder="Player Profile Search" autocomplete="off"  />
+        <input type="submit" name="phmaincontent_0$ctl01$searchButtonPlayer" value="" id="phmaincontent_0_ctl01_searchButtonPlayer" class="search_button" name="filter" />  
+ </div>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        function setDatesPlayerSearch() {
+            var searchedString = document.getElementById('searchTextPlayer').value;
+            var path = "";
+            if (document.getElementById('searchTextPlayer').attributes["placeholder"] != null) {
+
+                if (searchedString != document.getElementById('searchTextPlayer').attributes["placeholder"].nodeValue) {
+
+
+                    path = window.location.protocol + "//" + window.location.hostname + "/Ranking.aspx?player=" + searchedString;
+
+                } else {
+
+                    path = window.location.protocol + "//" + window.location.hostname + "/Ranking.aspx";
+
+                }
+
+                window.location.assign(path);
+            }
+        }
+
+
+        $.fn.pressEnter = function(fn) {
+
+            return this.each(function() {
+                $(this).bind('enterPress', fn);
+                $(this).keyup(function(e) {
+                    if (e.keyCode === 13) {
+                        $(this).trigger("enterPress");
+                    }
+                });
+            });
+        };
+
+
+        $("#sidebar .search_button").click(function () {
+            setDatesPlayerSearch();
+            return false;
+        });
+
+        $('#searchTextPlayer').pressEnter(function() {
+            setDatesPlayerSearch();
+        });
+    });
+
+
+</script>
+
+
+<section id="current_events" class="site_block">
+    <h2>THIS WEEK&#39;S EVENTS</h2>
+    <time class="sub_header" datetime="2013-03-17T10:03:00">WEEK 51</time>
+    <div class="no_results">
+        
+                <h3>There are no eligible Tournaments this week</h3>
+        
+    </div>
+</section>
+
+
+<section id="latest_news_s" class="sidebar_block">
+    <h2>LATEST NEWS</h2>
+    <time class="sub_header" datetime="17TH DECEMBER 2018">Week 50 17TH DECEMBER 2018</time>
+    <div class="text">
+        <a href="/news/2018/december/week-50"><img src="/sitecore/shell/~/media/2FBA36FA3DC44D94877E63466E418E61.ashx?w=85&h=85&rgn=349,105,725,481&la=en" /></a>
+        <a href="/news/2018/december/week-50"><p>SAKSANSIN JUMPS TO CAREER BEST OF WORLD NO.140</p></a>
+    </div>
+</section>
+ </aside>
+ <!--End of sidebar-->
+
+ 
+
+ <script type="text/javascript">
+     function setDatesPlayerSearchMobile() {
+         if($("#player_search_m").is(":visible"))
+         {
+             var searchedString = document.getElementById('searchTextPlayerMobile').value;
+             if (document.getElementById('searchTextPlayerMobile').attributes["placeholder"] != null) {
+                 if (searchedString != document.getElementById('searchTextPlayerMobile').attributes["placeholder"].nodeValue)
+                     path = window.location.protocol + "//" + window.location.hostname + "/Ranking.aspx?player=" + searchedString;
+                 else {
+                     path = window.location.protocol + "//" + window.location.hostname + "/Ranking.aspx";
+                 }
+                 window.location.assign(path);
+             }
+         }
+     }
+</script>
+
+            
+
+<footer id="main_footer">
+    <section class="logos">
+        <span class="eligible_tours_title">ELIGIBLE TOURS</span>
+        <div class="eligible_tours">         
+                
+                        <a href="http://www.asiantour.com/" class="logo asian_tour" target="_blank"></a>
+                    
+                        <a href="http://www.europeantour.com/" class="logo euro_tour" target="_blank"></a>
+                    
+                        <a href="http://www.jgto.org/" class="logo japan" target="_blank"></a>
+                    
+                        <a href="http://www.pgatour.com/" class="logo pga_tour" target="_blank"></a>
+                    
+                        <a href="https://www.pga.org.au/tourns/pga-tour" class="logo australasia" target="_blank"></a>
+                    
+                        <a href="http://www.sunshinetour.com/" class="logo ss_tour" target="_blank"></a>
+                    
+                        <a href="http://alpstourgolf.com/" class="logo alps_tour" target=""></a>
+                    
+                        <a href="http://asiandevelopmenttour.com/" class="logo asia_dev_tour" target="_blank"></a>
+                    
+                        <a href="http://bigeasytour.co.za/" class="logo ssbe_tour" target="_blank"></a>
+                    
+                        <a href="http://www.europeantour.com/challengetour/" class="logo euro_challenge" target="_blank"></a>
+                    
+                        <a href="http://www.cgatour.com.cn/en/index.html" class="logo chn_tour" target=""></a>
+                    
+                        <a href="http://www.europrotour.com/" class="logo ept_tour" target="_blank"></a>
+                    
+                        <a href="http://www.kpga.co.kr/schedule/schedule.kpga" class="logo korean_tour" target=""></a>
+                    
+                        <a href="http://www2.pgatourcanada.com/" class="logo pga_can" target="_blank"></a>
+                    
+                        <a href="https://menagolftour.com/" class="logo mgt_tour" target="_blank"></a>
+                    
+                        <a href="http://eccotour.org/nordicgolfleague/" class="logo ngl_tour" target="_blank"></a>
+                    
+                        <a href="http://oneasia.asia/" class="logo one_asia" target="_blank"></a>
+                    
+                        <a href="http://www.pgatourserieschina.com/en/" class="logo pga_china" target="_blank"></a>
+                    
+                        <a href="http://www.pgatourla.com/" class="logo pga_lat" target="_blank"></a>
+                    
+                        <a href="http://www.pga.de/schedule-latest.html?year=" class="logo pgt_tour" target="_blank"></a>
+                    
+                        <a href="http://www.pgatour.com/webcom.html" class="logo web_tour" target="_blank"></a>
+                                
+        </div>
+
+        <span class="founders_title">OFFICIAL WORLD GOLF RANKING FOUNDERS</span>
+        <div class="founders">            
+                
+                        <a href="http://www.masters.com" class="logo augusta" target="_blank"></a>
+                    
+                        <a href="http://www.usga.org/" class="logo usga" target="_blank"></a>
+                    
+                        <a href="http://www.randa.org/" class="logo ra" target="_blank"></a>
+                    
+                        <a href="http://www.pga.com" class="logo pga" target=""></a>
+                    
+                        <a href="http://www.pgatour.com/" class="logo pga_tour" target="_blank"></a>
+                    
+                        <a href="http://www.europeantour.com/" class="logo euro_tour" target="_blank"></a>
+                    
+                        <a href="http://www.worldgolfchampionships.com/internationalfederation.html" class="logo igf" target="_blank"></a>
+                                    
+            
+        </div>
+       
+        <div class="social-menu">
+        <span class ="in_touch">STAY IN TOUCH</span>
+        <span class="nav-icon"> 
+            <a href="https://www.facebook.com/OWGR-Ltd-1677398372523814/"  target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+        </span>
+        <span>
+            <a href="https://twitter.com/OWGRltd"  target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
+        </span>
+        <span>
+            <a href="https://www.instagram.com/owgr_ltd/"  target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a>
+        </span>
+    </div>
+    </section>
+    
+
+    <div class="and_finally">
+      <div class="social-menu">
+        <span class="nav-icon"> 
+            <a href="https://www.facebook.com/OWGR-Ltd-1677398372523814/"  target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+        </span>
+        <span>
+            <a href="https://twitter.com/OWGRltd"  target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
+        </span>
+        <span>
+            <a href="https://www.instagram.com/owgr_ltd/"  target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a>
+        </span>
+    </div>
+        <span class="cpyrit"><p>&copy; 2018 - OFFICIAL WORLD GOLF RANKING</p></span>
+        <ul id="footer_links">
+            
+                    <li><a href='/global/footer/terms'>TERMS</a></li>
+                
+                    <li><a href='/global/footer/privacy'>PRIVACY</a></li>
+                
+                    <li><a href='/about?tabID={F955E00F-DF60-4A0C-BC6C-AB97B9C13EF1}'>CONTACT US</a></li>
+                
+
+            <li><a href="http://www.96digital.com/">DESIGN BY 96 DIGITAL</a></li>
+            <li><a href="http://www.endava.com/">DEVELOPED AND MANAGED BY ENDAVA</a></li>
+        </ul>
+    </div>
+</footer> <!--End of footer-->
+            </div>
+            <!--End of site_container -->
+
+         
+
+            <script>window.jQuery || document.write('<script src="/styles/js/vendor/jquery-1.11.0.min.js?ov=' + 18 + '"><\/script>')</script>
+
+            <script src="/styles/js/easySlider1.7.js?ov=18"></script>
+            <script src="/styles/js/main.min.js?ov=18"></script>
+            
+
+       <script type="text/javascript">
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-64172262-1']);
+
+    _gaq.push(['_setDomainName', 'none']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+
+
+
+
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })(); 
+ </script>
+  </form>
+  
+  </body>
+</html>
