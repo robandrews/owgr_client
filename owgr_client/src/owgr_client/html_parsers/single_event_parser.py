@@ -1,5 +1,6 @@
 from html.parser import HTMLParser
 
+from owgr_client.constants import EVENT_COLS
 from owgr_client.helpers import is_str_blank
 from owgr_client.helpers import get_id_from_player_url
 from owgr_client.helpers import clean_html

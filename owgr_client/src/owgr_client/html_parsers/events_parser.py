@@ -1,5 +1,6 @@
 from html.parser import HTMLParser
 
+from owgr_client.constants import EVENT_COLUMNS
 from owgr_client.helpers import is_str_blank
 from owgr_client.helpers import get_id_from_player_url
 from owgr_client.helpers import clean_html
@@ -37,7 +38,7 @@ class OwgrEventsHtmlParser(HTMLParser):
             if self.debug:
                 print("Leaving the row :", tag)
                 print(r)
-            d = dict(zip(COLS, r))
+            d = dict(zip(EVENT_COLUMNS, r))
             self.all_rows.append(d)
             self.row = None
 

@@ -32,7 +32,7 @@ class OwgrClient(object):
         url = EVENTS_URL_TEMPLATE.format(tour=tour_str, year=year)
         return self._get_and_parse_events_from_url(url, html_parser=OwgrEventsHtmlParser)
     
-    def get_results_for_event_by_id(event_id):
+    def get_results_for_event_by_id(self, event_id):
         url = RESULTS_FOR_EVENT_TEMPLATE.format(event_id=event_id)
         return self._get_and_parse_events_from_url(url, html_parser=OwgrSingleEventHtmlParser)
 

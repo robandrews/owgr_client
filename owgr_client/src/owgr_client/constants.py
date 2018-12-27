@@ -6,3 +6,5 @@ RESULTS_FOR_EVENT_TEMPLATE = "http://www.owgr.com/en/Events/EventResult.aspx?eve
 
 EVENT_COLUMNS = ["Week", "Year", "Tour", "EventUrl", "EventName", "PlayerUrl", "Winner", "WinnerPoints", "WorldRating", "HomeRating", "SoF"]
 
+EVENT_COLS = ['Pos', 'PlayerUrl', 'Name', 'R1', 'R2', 'R3', 'R4', 'Agg', 'Ranking Points']
+
