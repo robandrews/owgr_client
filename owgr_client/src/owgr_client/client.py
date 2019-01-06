@@ -49,4 +49,4 @@ class OwgrClient(object):
 
         p = html_parser()
         p.feed(txt)
-        return p.all_rows[1:]
+        return p.all_rows
