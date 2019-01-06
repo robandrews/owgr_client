@@ -4,6 +4,7 @@ from owgr_client.constants import EVENT_COLS
 from owgr_client.helpers import is_str_blank
 from owgr_client.helpers import get_id_from_player_url
 from owgr_client.helpers import clean_html
+from owgr_client.helpers import is_valid_player_url
 
 class OwgrSingleEventHtmlParser(HTMLParser):
     def __init__(self):
@@ -40,9 +41,11 @@ class OwgrSingleEventHtmlParser(HTMLParser):
             if self.debug:
                 print(r)
                 print("Leaving the row :", tag)
+    
             if len(r) > 0:
                 d = dict(zip(EVENT_COLS, self.row))
-                self.all_rows.append(d)
+                if is_valid_player_url(d["PlayerUrl"]):
+                    self.all_rows.append(d)
             self.row = None
 
     def handle_data(self, data):
