@@ -11,3 +11,5 @@ A client to programmatically interact with OWGR data.
 * `client.get_events(tour="", year="")`
 * `client.get_event(Event)`
 * `client.get_event_by_id(event_id)`
+* `client.get_player_by_id(player_id)`
+
