@@ -4,6 +4,7 @@ import requests
 from owgr_client.constants import BASE_URL
 from owgr_client.constants import EVENTS_URL_TEMPLATE
 from owgr_client.constants import RESULTS_FOR_EVENT_TEMPLATE
+from owgr_client.constants import PLAYER_URL_TEMPLATE
 
 from owgr_client.helpers import clean_html, is_str_blank, get_id_from_player_url
 from owgr_client.models.owgr_tour import OwgrTour
@@ -35,6 +36,11 @@ class OwgrClient(object):
     def get_results_for_event_by_id(self, event_id):
         url = RESULTS_FOR_EVENT_TEMPLATE.format(event_id=event_id)
         return self._get_and_parse_events_from_url(url, html_parser=OwgrSingleEventHtmlParser)
+
+    # preferred design - return Player obj.
+    def get_player_by_id(self, player_id):
+        url = PLAYER_URL_TEMPLATE.format(player_id=player_id)
+        
 
     def _get_and_parse_events_from_url(self, url, html_parser):
         try:

@@ -3,6 +3,9 @@ import re
 def is_str_blank(s):
     return all([ch == " " for ch in s])
 
+def is_str_non_text(s):
+    return all([ch in ["\r", "\n", "\t", " "] for ch in s])
+
 def clean_html(s):
     return s.strip().replace("\n","").replace("\r", "")
 
@@ -41,3 +44,24 @@ def position_as_digit(pos):
         except ValueError:
             return "X"
     return "X"
+
+def tupelize(arr):
+    num_tupes = len(arr) // 2
+    if len(arr) % 2 != 0:
+        raise ValueError("Unable to tupelize list of with odd length.")
+    
+    ret_tupes = []
+    i = 0
+    while i < len(arr) - 1:
+        tup = (arr[i], arr[i+1])
+        ret_tupes.append(tup)
+        i += 2
+
+    return ret_tupes
+
+def has_value_for_attr(attr, attr_val, attrs):
+#     attrs is a list of tuples
+    for tup in attrs:
+        if tup[0] == attr:
+            return tup[1] == attr_val
+    return False
