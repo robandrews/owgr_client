@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: owgr-client
+Version: 0.0.post0.dev8+g0ae0a6e.dirty
+Summary: A library and client to access OWGR data.
+Home-page: https://www.robandre.ws/
+Author: Rob Andrews
+Author-email: robert.alan.andrews@gmail.com
+License: mit
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Provides-Extra: testing
