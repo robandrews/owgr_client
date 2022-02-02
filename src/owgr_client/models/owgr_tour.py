@@ -2,7 +2,7 @@ from enum import Enum
 
 class OwgrTour(Enum):
     ALL=""
-    PGATour="USA"
+    PGATour="PGAT"
     AlpsTour="ALP"
     AsianDevelopmentTour="ADT"
     AsianTour="Asa"
