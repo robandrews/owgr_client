@@ -45,7 +45,7 @@ class OwgrLeaderboard(object):
         return self.results
 
     def _calculate_row_rounds(self):
-        if len(self.results) is 0:
+        if len(self.results) == 0:
             print("No results to use.")
             return None
         

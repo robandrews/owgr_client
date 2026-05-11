@@ -1,11 +1,10 @@
-from enum import Enum
+API_BASE_URL = "https://apiweb.owgr.com/api/owgr"
 
-BASE_URL = "http://www.owgr.com"
-EVENTS_URL_TEMPLATE = "http://www.owgr.com/events?pageSize=400&tour={tour}&year={year}"
-RESULTS_FOR_EVENT_TEMPLATE = "http://www.owgr.com/en/Events/EventResult.aspx?eventid={event_id}"
-PLAYER_URL_TEMPLATE = "http://www.owgr.com/Ranking/PlayerProfile.aspx?playerID={player_id}"
-
-EVENT_COLUMNS = ["Week", "Year", "Tour", "EventUrl", "EventName", "PlayerUrl", "Winner", "WinnerPoints", "WorldRating", "HomeRating", "SoF"]
-
-EVENT_COLS = ['Pos', 'PlayerUrl', 'Name', 'R1', 'R2', 'R3', 'R4', 'Agg', 'Ranking Points']
-
+EVENTS_URL = f"{API_BASE_URL}/events/getEventsToDate"
+TOURS_URL = f"{API_BASE_URL}/tours/getTours"
+PLAYER_PROFILE_URL = (
+    f"{API_BASE_URL}/playerprofile/getPlayerProfileEventsTable"
+)
+PLAYER_YEARS_URL = (
+    f"{API_BASE_URL}/playerprofile/getPlayerProfileYearsDropdown"
+)
