@@ -10,17 +10,17 @@ def clean_html(s):
     return s.strip().replace("\n","").replace("\r", "")
 
 def get_id_from_player_url(player_url):
-    r = re.compile("\d+")
+    r = re.compile(r"\d+")
     m = re.search(r, player_url)
     return m.group(0)
 
 def get_id_from_url(url):
-    r = re.compile("\d+")
+    r = re.compile(r"\d+")
     m = re.search(r, url)
     return m.group(0)
 
 def is_valid_player_url(player_url):
-    r = re.compile("\/en\/Ranking\/PlayerProfile.aspx\?playerID=\d+")
+    r = re.compile(r"/en/Ranking/PlayerProfile\.aspx\?playerID=\d+")
     if r.match(player_url):
         return True
     return False
@@ -37,7 +37,7 @@ def get_fantasy_score_for_round(score_str, low_score):
         return 0
 
 def position_as_digit(pos):
-    m = re.search("\d+", pos)
+    m = re.search(r"\d+", pos)
     if m:
         try:
             return m.group(0)
